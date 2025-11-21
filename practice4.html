@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <head>
+    <title>web</title>
+    <link rel="stylesheet" href="beginner1.css">
+  </head>
+  <body>
+    <caption>
+      student table
+    </caption>
+    <table>
+      <thead>
+        <tr>  
+          <th>name</th>
+          <th>contact</th>
+          <th>address</th>
+          <th colspan="1" rowspan="1"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>sanathoi</td>
+          <td>9863799385</td>
+          <td>hiyangthang</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>sana</td>
+          <td>52356464543</td>
+          <td>samurou</td>
+          <td>
+            <button>Edit</button>
+            <button>Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <form action="" method="get">
+      <label for="username">name</label>
+      <input type="text" name="sanathoi" id="username" />
+      <label> contact </label>
+      <input type="number" />
+      <label>address</label>
+      <select name="address">
+        <option value="country">name</option>
+        <option value="In">India</option>
+        <option value="jp">japan</option>
+        <option value="bk">bangkok</option>
+      </select>
+      <label>description</label>
+      <textarea name="description"></textarea>
+      <input type="text" />
+    </form>
+  </body>
+</html>
